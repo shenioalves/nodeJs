@@ -50,7 +50,7 @@ FONTE: https://www.w3schools.com/mysql/mysql_unique.asp
 
     IN - operador é uma abreviação para múltiplas OR condições.
 
-## FUÇÕES
+## FUNÇÕES
 
     MIN() - função retorna o menor valor da coluna selecionada.
         SELECT MIN(column_name) FROM table_name WHERE condition;
