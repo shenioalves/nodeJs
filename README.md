@@ -1,3 +1,5 @@
+Anotações do estudo de MySQL
+
 FONTE: https://www.w3schools.com/mysql/mysql_unique.asp
 
 INSTRUÇÃO 
