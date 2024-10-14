@@ -1,4 +1,5 @@
 FONTE: https://www.w3schools.com/mysql/mysql_unique.asp
+
 INSTRUÇÃO 
 
     SELECT // extrai dados de um banco de dados
