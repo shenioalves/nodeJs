@@ -2,7 +2,7 @@ Anotações do estudo de MySQL
 
 FONTE: https://www.w3schools.com/mysql/mysql_unique.asp
 
-INSTRUÇÃO 
+## INSTRUÇÃO 
 
     SELECT // extrai dados de um banco de dados
         SELECT column1, column2, ... FROM table_name; especifica quais dsos pegar
@@ -35,7 +35,7 @@ INSTRUÇÃO
     CREATE INDEX // cria um índice (chave de pesquisa)
     DROP INDEX // exclui um índice
 
-ATRIBUTOS
+## ATRIBUTOS
 
     WHERE - usado para extrair/filtrar apenas os registros que atendem a uma condição especificada
         SELECT column1, column2, ...FROM table_name WHERE condition;
@@ -43,14 +43,14 @@ ATRIBUTOS
     LIMIT - usada para especificar o número de registros a serem retornados.
         SELECT column_name(s) FROM table_name WHERE condition LIMIT number;
 
-OPERADORES
+## OPERADORES
 
     OR, AND E NOT
         SELECT column1, column2, ...FROM table_name WHERE NOT condition1 OR condition2 AND condition3 ...;
 
     IN - operador é uma abreviação para múltiplas OR condições.
 
-FUÇÕES
+## FUÇÕES
 
     MIN() - função retorna o menor valor da coluna selecionada.
         SELECT MIN(column_name) FROM table_name WHERE condition;
@@ -67,7 +67,7 @@ FUÇÕES
     SUM() - função retorna a soma total de uma coluna numérica.
         SELECT SUM(column_name)FROM table_name WHERE condition;
 
-RESTRIÇÕES
+## RESTRIÇÕES
 
     NOT NULL- Garante que uma coluna não pode ter um valor NULL
         CREATE TABLE Persons (
